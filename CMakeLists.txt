@@ -5,7 +5,7 @@ project(RayTracingTesting
 )
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_FLAGS "-Wall -Wsign-conversion")
+set(CMAKE_CXX_FLAGS "-Wall -Wsign-conversion -Werror")
 
 find_package(Catch2 3 REQUIRED)
 enable_testing() 
