@@ -15,6 +15,7 @@
 #include "Object.hpp"
 #include "Plane.hpp"
 #include <algorithm>
+#include <cmath>
 
 using namespace Catch::Matchers;
 
